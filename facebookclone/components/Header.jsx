@@ -44,9 +44,12 @@ function Header() {
             </div>
 
             {/* Right Header */}
-            <div>
-                
+            <div className='flex items-center sm:space-x-2 justify-end'>
                 <p className='font-semibold pr-3 whitespace-nowrap'>Vishal Ghosh</p>
+                <ViewGridIcon className='icon'/>
+                <ChatIcon className='icon'/>
+                <BellIcon className='icon'/>
+                <ChevronDownIcon className='icon'/>
             </div>
         </div>
     )
